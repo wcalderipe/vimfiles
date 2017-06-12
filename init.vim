@@ -18,6 +18,8 @@ call plug#end()
 " load initializers *.vim
 runtime! initializers/*.vim
 
+filetype off
+
 " Theme
 syntax enable
 colorscheme OceanicNext
