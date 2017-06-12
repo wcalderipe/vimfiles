@@ -9,10 +9,8 @@ Plug 'scrooloose/nerdtree'
 " initialize plugin system
 call plug#end()
 
-" true colors for terminal
-if (has("termguicolors"))
- set termguicolors
-endif
+" load initializers *.vim
+runtime! initializers/*.vim
 
 " Theme
 syntax enable
