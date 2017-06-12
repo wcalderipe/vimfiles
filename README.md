@@ -26,3 +26,7 @@ Read more about it: https://github.com/neovim/neovim/wiki/Installing-Neovim#maco
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+
+### Plugins
+
+Inside nvim run ``:PlugInstall`
