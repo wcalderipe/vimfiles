@@ -29,4 +29,4 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 
 ### Plugins
 
-Inside nvim run ``:PlugInstall`
+Inside nvim run `:PlugInstall`
