@@ -8,6 +8,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'groenewege/vim-less'
 Plug 'vim-scripts/EasyGrep'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " initialize plugin system
 call plug#end()
