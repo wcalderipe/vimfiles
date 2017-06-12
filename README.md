@@ -30,3 +30,14 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 ### Plugins
 
 Inside nvim run `:PlugInstall`
+
+
+## Neomake
+
+### Eslint
+
+Neomake requires eslint globaly to run
+
+```
+npm install -g eslint
+```

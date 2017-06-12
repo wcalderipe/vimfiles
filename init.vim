@@ -9,6 +9,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'groenewege/vim-less'
 Plug 'vim-scripts/EasyGrep'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'neomake/neomake'
 
 " initialize plugin system
 call plug#end()
