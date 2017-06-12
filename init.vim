@@ -1,7 +1,7 @@
 " plugin system block
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'mhartington/oceanic-next'
+Plug 'morhetz/gruvbox'
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'scrooloose/nerdtree'
@@ -22,8 +22,8 @@ filetype off
 
 " Theme
 syntax enable
+colorscheme gruvbox
 set background=dark
-colorscheme OceanicNext
 
 " line numbers
 set nu
