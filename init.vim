@@ -7,6 +7,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'groenewege/vim-less'
+Plug 'vim-scripts/EasyGrep'
 
 " initialize plugin system
 call plug#end()
