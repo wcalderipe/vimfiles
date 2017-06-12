@@ -17,3 +17,6 @@ endif
 " Theme
 syntax enable
 colorscheme OceanicNext
+
+" line numbers
+set nu
