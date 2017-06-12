@@ -5,6 +5,7 @@ Plug 'mhartington/oceanic-next'
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'scrooloose/nerdtree'
+Plug 'editorconfig/editorconfig-vim'
 
 " initialize plugin system
 call plug#end()
