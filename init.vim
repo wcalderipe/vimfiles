@@ -1,7 +1,7 @@
 " plugin system block
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'altercation/vim-colors-solarized'
+Plug 'mhartington/oceanic-next'
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'scrooloose/nerdtree'
@@ -22,7 +22,8 @@ filetype off
 
 " Theme
 syntax enable
-colorscheme solarized
+set background=dark
+colorscheme OceanicNext
 
 " line numbers
 set nu
