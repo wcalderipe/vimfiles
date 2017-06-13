@@ -23,6 +23,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-scripts/EasyGrep'
 Plug 'vim-airline/vim-airline'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'airblade/vim-gitgutter'
 
 " initialize plugin system
 call plug#end()
