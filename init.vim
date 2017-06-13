@@ -1,17 +1,28 @@
 " plugin system block
 call plug#begin('~/.local/share/nvim/plugged')
 
+" theme
 Plug 'morhetz/gruvbox'
+
+" javascript
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
-Plug 'scrooloose/nerdtree'
-Plug 'editorconfig/editorconfig-vim'
+
+" less and css syntax highlight
 Plug 'groenewege/vim-less'
-Plug 'vim-scripts/EasyGrep'
-Plug 'ctrlpvim/ctrlp.vim'
+
+" async runner 
 Plug 'neomake/neomake'
+
+" async autocomplete
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+" editor enchanters
+Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-scripts/EasyGrep'
 Plug 'vim-airline/vim-airline'
+Plug 'editorconfig/editorconfig-vim'
 
 " initialize plugin system
 call plug#end()
@@ -21,7 +32,7 @@ runtime! initializers/*.vim
 
 filetype off
 
-" Theme
+" theme
 syntax enable
 colorscheme gruvbox
 set background=dark
