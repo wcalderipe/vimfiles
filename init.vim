@@ -11,6 +11,7 @@ Plug 'vim-scripts/EasyGrep'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neomake/neomake'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'vim-airline/vim-airline'
 
 " initialize plugin system
 call plug#end()
