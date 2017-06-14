@@ -57,16 +57,19 @@ brew install ripgrep
 #### fzf
 
 `ctrl + p` - Open files search
-> `ctrl + t` - tab split
-> `ctrl + x` - split
-> `ctrl + v` - vsplit
-> `ctrl + p` - previous searching
-> `ctrl + n` - next searching
+
+* `ctrl + t` - tab split
+* `ctrl + x` - split
+* `ctrl + v` - vsplit
+* `ctrl + p` - previous searching
+* `ctrl + n` - next searching
 
 #### ack.vim
 
 `:Find something`
+
 `:FindAll something` - same commands used after 'ctrl-p'
+
 `:Ack something` - search for something
 
 ```
