@@ -52,3 +52,11 @@ brew install the_silver_searcher
 brew install ripgrep
 ```
 
+### Shortcuts
+
+`ctrl + p` - Open files search
+> `ctrl + t` - tab split
+> `ctrl + x` - split
+> `ctrl + v` - vsplit
+> `ctrl + p` - previous searching
+> `ctrl + n` - next searching
