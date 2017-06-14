@@ -17,13 +17,18 @@ Plug 'neomake/neomake'
 " async autocomplete
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
+" fuzzy file finder
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
+Plug 'junegunn/fzf.vim'
+
+" word finder
+Plug 'mileszs/ack.vim'
+
 " editor enchanters
-Plug 'scrooloose/nerdtree'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'vim-scripts/EasyGrep'
-Plug 'vim-airline/vim-airline'
-Plug 'editorconfig/editorconfig-vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
+Plug 'editorconfig/editorconfig-vim'
 
 " initialize plugin system
 call plug#end()

@@ -41,3 +41,14 @@ Neomake requires eslint globaly to run
 ```
 npm install -g eslint
 ```
+
+
+## fzf and ack.vim
+
+fzf and ack.vim requires the_silver_searcher and ripgrep as dependencies
+
+```
+brew install the_silver_searcher
+brew install ripgrep
+```
+
