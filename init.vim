@@ -41,7 +41,10 @@ filetype off
 " theme
 syntax enable
 colorscheme gruvbox
-set background=dark
+set background = dark
 
 " line numbers
 set nu
+
+" 80 characters ruler
+set cc = 80
