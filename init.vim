@@ -5,8 +5,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'morhetz/gruvbox'
 
 " javascript
-Plug 'pangloss/vim-javascript'
-Plug 'maxmellon/vim-jsx-pretty'
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'json'] }
+Plug 'maxmellon/vim-jsx-pretty', , { 'for': ['javascript'] }
 
 " less and css syntax highlight
 Plug 'groenewege/vim-less'
