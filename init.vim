@@ -51,3 +51,7 @@ set cc=80
 
 " do not break lines at end of the screen
 set nowrap
+
+" folding
+set foldlevelstart=10
+set foldmethod=syntax
