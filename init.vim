@@ -6,7 +6,7 @@ Plug 'morhetz/gruvbox'
 
 " javascript
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'json'] }
-Plug 'maxmellon/vim-jsx-pretty', , { 'for': ['javascript'] }
+Plug 'maxmellon/vim-jsx-pretty', { 'for': ['javascript'] }
 
 " less and css syntax highlight
 Plug 'groenewege/vim-less'
@@ -41,10 +41,13 @@ filetype off
 " theme
 syntax enable
 colorscheme gruvbox
-set background = dark
+set background=dark
 
 " line numbers
 set nu
 
 " 80 characters ruler
-set cc = 80
+set cc=80
+
+" do not break lines at end of the screen
+set nowrap
