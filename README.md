@@ -1,3 +1,9 @@
+## Deprecated
+I migrate these configurations to my dotfiles repository in order to keep one
+source of truth.
+
+https://github.com/wcalderipe/dotfiles/tree/master/.vim
+
 ## Install
 
 ```
